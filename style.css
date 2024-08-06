@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&family=Creepster&family=Rubik+Mono+One&display=swap');
+:root{
+    --cor-fundo: #01080E ;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333; 
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
+    --core-preta:#000000;
+
+
+}
+
+body {
+
+    color: var(--core-preta);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Anton SC", sans-serif;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(88,255,93,1) 100%);
+}
+
+.caixa-principal{
+
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    padding: 20px;
+    font-family: "Anton SC", sans-serif;
+    background: rgb(174,189,238);
+background: linear-gradient(90deg, rgba(174,189,238,0.742734593837535) 0%, rgba(88,255,248,1) 63%);
+}
+
+h1{
+    color: var(--core-preta);
+    font-family: "Anton SC", sans-serif;
+    
+}
+
+button {
+    background-color: var(--cor-texto);
+    color: var(--core-preta);
+    border: none;
+    border-radius: 35px;
+    padding: 35px;
+    transition: background-color 0.3s;
+    font-family: "Anton SC", sans-serif;
+}
+
+button:hover{
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    font-family: "Anton SC", sans-serif;
+}
